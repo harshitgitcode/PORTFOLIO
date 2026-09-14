@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Harshit is a first-semester BCA student building a strong foundation in AI, ML, Python, and data."
+    />
+    <title>Harshit — BCA Student & AI/ML Learner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Harshit home">
+        <span class="brand-mark">H<span>.</span></span>
+        <span>harshit<span class="brand-dot">/</span>learns</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#subjects">Subjects</a>
+        <a href="#projects">Projects</a>
+        <a href="#journey">Journey</a>
+        <a class="nav-cta" href="#contact">Let's connect <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="eyebrow reveal"><span class="pulse-dot"></span> Available for internship opportunities</div>
+          <h1 id="hero-title" class="reveal delay-1">Learning out loud.<br /><em>Building with intent.</em></h1>
+          <p class="hero-intro reveal delay-2">
+            I’m <strong>Harshit</strong>, a first-semester BCA student exploring the intersection of
+            <span class="highlight">AI, data, and thoughtful software.</span> I’m building my fundamentals one
+            experiment at a time.
+          </p>
+          <div class="hero-actions reveal delay-3">
+            <a class="button button-primary" href="#projects">See what I’m building <span>↓</span></a>
+            <a class="text-link" href="#contact">Start a conversation <span>↗</span></a>
+          </div>
+          <div class="hero-meta reveal delay-3">
+            <span>01 / 07 subjects in motion</span>
+            <span class="meta-line"></span>
+            <span>Currently: building foundations</span>
+          </div>
+        </div>
+        <div class="hero-visual reveal delay-2" aria-label="Decorative AI learning illustration">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="orbital-label label-top">AI / ML <span>↗</span></div>
+          <div class="orbital-label label-bottom">curious by default</div>
+          <div class="core">
+            <div class="core-grid"></div>
+            <div class="core-symbol">∿</div>
+          </div>
+          <div class="float-card float-card-top"><span class="card-icon">⌘</span><span>learn →<br /><b>apply</b></span></div>
+          <div class="float-card float-card-bottom"><span class="mini-bars"><i></i><i></i><i></i></span><span>progress<br /><b>in motion</b></span></div>
+        </div>
+      </section>
+
+      <section id="about" class="about section-shell section-pad" aria-labelledby="about-title">
+        <div class="section-kicker">01 — A little context</div>
+        <div class="about-grid">
+          <h2 id="about-title">A beginner’s mindset,<br /><span>on purpose.</span></h2>
+          <div class="about-copy">
+            <p>
+              My first semester is about learning how to learn: understanding the logic behind the tools, asking
+              better questions, and turning small ideas into working projects.
+            </p>
+            <p class="muted">
+              I’m looking for an internship where I can contribute with curiosity, learn from experienced people,
+              and grow through real problems—not pretend to know everything already.
+            </p>
+            <div class="principles">
+              <div><strong>01</strong><span>Stay curious</span></div>
+              <div><strong>02</strong><span>Build in public</span></div>
+              <div><strong>03</strong><span>Keep it useful</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="subjects" class="subjects section-shell section-pad" aria-labelledby="subjects-title">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">02 — Current semester</div>
+            <h2 id="subjects-title">The subjects<br /><span>shaping my toolkit.</span></h2>
+          </div>
+          <p>Click a card to see what I’m taking away from each class.</p>
+        </div>
+        <div class="subject-grid">
+          <button class="subject-card featured" type="button" data-subject="ai">
+            <span class="subject-number">01</span><span class="subject-icon">✦</span>
+            <span class="subject-name">AI Foundations</span><span class="subject-status">Exploring</span><span class="subject-arrow">↗</span>
+          </button>
+          <button class="subject-card" type="button" data-subject="python">
+            <span class="subject-number">02</span><span class="subject-icon">⌘</span>
+            <span class="subject-name">Python Programming <small>with IBM Faculty</small></span><span class="subject-status">Building</span><span class="subject-arrow">↗</span>
+          </button>
+          <button class="subject-card" type="button" data-subject="innovation">
+            <span class="subject-number">03</span><span class="subject-icon">◌</span>
+            <span class="subject-name">Innovation Lab</span><span class="subject-status">Ideating</span><span class="subject-arrow">↗</span>
+          </button>
+          <button class="subject-card" type="button" data-subject="data">
+            <span class="subject-number">04</span><span class="subject-icon">▦</span>
+            <span class="subject-name">SQL &amp; NoSQL</span><span class="subject-status">Learning</span><span class="subject-arrow">↗</span>
+          </button>
+          <button class="subject-card" type="button" data-subject="math">
+            <span class="subject-number">05</span><span class="subject-icon">∑</span>
+            <span class="subject-name">Mathematics</span><span class="subject-status">Practising</span><span class="subject-arrow">↗</span>
+          </button>
+          <button class="subject-card" type="button" data-subject="environment">
+            <span class="subject-number">06</span><span class="subject-icon">⌁</span>
+            <span class="subject-name">Environmental Science</span><span class="subject-status">Discovering</span><span class="subject-arrow">↗</span>
+          </button>
+          <button class="subject-card" type="button" data-subject="lab">
+            <span class="subject-number">07</span><span class="subject-icon">⌬</span>
+            <span class="subject-name">Python Lab</span><span class="subject-status">Hands-on</span><span class="subject-arrow">↗</span>
+          </button>
+        </div>
+        <div class="subject-detail" id="subject-detail" aria-live="polite">
+          <span class="detail-label">Selected subject</span>
+          <strong>AI Foundations</strong>
+          <p>Understanding the ideas behind intelligent systems, from problem-solving to the building blocks of machine learning.</p>
+          <span class="detail-tag">Click another card to explore →</span>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section-shell section-pad" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">03 — Experiments in progress</div>
+            <h2 id="projects-title">Small steps,<br /><span>real momentum.</span></h2>
+          </div>
+          <div class="project-filter" role="group" aria-label="Filter projects">
+            <button class="filter active" type="button" data-filter="all">All</button>
+            <button class="filter" type="button" data-filter="building">Building</button>
+            <button class="filter" type="button" data-filter="planned">Planned</button>
+          </div>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-featured" data-project-status="building">
+            <div class="project-visual visual-signal"><span class="signal-line"></span><span class="signal-line second"></span><span class="signal-node node-one"></span><span class="signal-node node-two"></span><span class="visual-caption">input → insight</span></div>
+            <div class="project-body"><div class="project-top"><span class="project-index">Project 01</span><span class="status-pill building">In progress</span></div><h3>Study Signal</h3><p>A planned Python experiment to turn study notes into a simple, searchable learning dashboard.</p><div class="tags"><span>Python</span><span>Data</span><span>Exploration</span></div></div>
+          </article>
+          <article class="project-card" data-project-status="planned">
+            <div class="project-visual visual-grid"><span>01</span><span>10</span><span>01</span><span>11</span><span>10</span><span>01</span><span class="grid-cursor">_</span></div>
+            <div class="project-body"><div class="project-top"><span class="project-index">Project 02</span><span class="status-pill planned">Planned</span></div><h3>Query Garden</h3><p>A beginner-friendly SQL and NoSQL playground for understanding how different data structures behave.</p><div class="tags"><span>SQL</span><span>NoSQL</span></div></div>
+          </article>
+          <article class="project-card" data-project-status="planned">
+            <div class="project-visual visual-pulse"><span class="pulse-ring"></span><span class="pulse-ring two"></span><span class="pulse-center">?</span></div>
+            <div class="project-body"><div class="project-top"><span class="project-index">Project 03</span><span class="status-pill planned">Planned</span></div><h3>Eco Lens</h3><p>A small data storytelling concept connecting Environmental Science observations with visual insights.</p><div class="tags"><span>Research</span><span>Visuals</span></div></div>
+          </article>
+        </div>
+        <p class="project-note"><span>✦</span> These are learning projects—not shipped products. Every placeholder is a promise to keep practising.</p>
+      </section>
+
+      <section id="journey" class="journey section-shell section-pad" aria-labelledby="journey-title">
+        <div class="section-kicker">04 — The learning journey</div>
+        <div class="journey-grid">
+          <h2 id="journey-title">One semester.<br /><span>Many firsts.</span></h2>
+          <div class="timeline">
+            <div class="timeline-item current"><span class="timeline-marker">01</span><div><span class="timeline-date">Now / Semester 01</span><h3>Build the foundation</h3><p>Learning Python, AI concepts, mathematics, databases, and how to think like a builder.</p></div></div>
+            <div class="timeline-item"><span class="timeline-marker">02</span><div><span class="timeline-date">Next / Keep experimenting</span><h3>Turn lessons into projects</h3><p>Make small, useful things. Share the process. Learn from what breaks.</p></div></div>
+            <div class="timeline-item"><span class="timeline-marker">03</span><div><span class="timeline-date">Goal / Earn trust</span><h3>Contribute as an intern</h3><p>Bring a teachable attitude, reliable effort, and a growing technical toolkit to a real team.</p></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section-shell section-pad" aria-labelledby="contact-title">
+        <div class="contact-card">
+          <div class="section-kicker">05 — Open to possibilities</div>
+          <h2 id="contact-title">Have a problem<br /><em>worth learning from?</em></h2>
+          <p>I’m open to conversations about internships, beginner-friendly opportunities, and teams that value curiosity.</p>
+          <a class="button button-light" href="mailto:TODO_ADD_YOUR_EMAIL@example.com">Say hello <span>↗</span></a>
+          <div class="contact-links">
+            <a href="https://github.com/TODO_ADD_YOUR_GITHUB" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+            <a href="https://www.linkedin.com/in/harshit-yadav-48b3ba36a" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+            <span class="location">📍 TODO: Add your city</span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer section-shell"><span>© 2024 Harshit / built while learning.</span><a href="#top">Back to top ↑</a></footer>
+
+    <dialog class="subject-modal" id="subject-modal">
+      <button class="modal-close" type="button" aria-label="Close subject details">×</button>
+      <span class="detail-label">Current semester / <span id="modal-number">01</span></span>
+      <h2 id="modal-title">AI Foundations</h2>
+      <p id="modal-description"></p>
+      <div class="modal-takeaway"><span>Learning focus</span><strong id="modal-focus"></strong></div>
+    </dialog>
+  </body>
+</html>
